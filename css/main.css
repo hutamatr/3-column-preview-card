@@ -1,0 +1,103 @@
+/*=============== BASE ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.3rem;
+  letter-spacing: 0.02rem;
+}
+
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== REM ==========*/
+/*========== z index ==========*/
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+  padding: 3.75rem 0 2rem;
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 60.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main {
+  overflow: hidden;
+  /*For animation*/
+}/*# sourceMappingURL=main.css.map */

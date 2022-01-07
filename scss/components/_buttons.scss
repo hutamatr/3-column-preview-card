@@ -1,0 +1,38 @@
+.card {
+  &__button {
+    padding: 0.8rem 2rem;
+    border: 2px solid $main-heading;
+    border-radius: 2.5rem;
+    font-size: $small-font-size;
+    font-family: $body-font;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  &--font1 {
+    color: $card-background-2;
+
+    &:hover {
+      background-color: $card-background-2;
+      color: $main-heading;
+    }
+  }
+
+  &--font2 {
+    color: $card-background-1;
+
+    &:hover {
+      background-color: $card-background-1;
+      color: $main-heading;
+    }
+  }
+
+  &--font3 {
+    color: $card-background-3;
+
+    &:hover {
+      background-color: $card-background-3;
+      color: $main-heading;
+    }
+  }
+}

@@ -1,7 +1,8 @@
+@import 'utils/variable';
+@import 'utils/utilities';
 @import 'base/reset';
 @import 'base/typography';
 @import 'components/buttons';
 @import 'layout/body';
 @import 'layout/footer';
-@import 'utils/variable';
-@import 'utils/utilities';
+@import 'layout/responsive';

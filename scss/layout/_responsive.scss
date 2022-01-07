@@ -1,0 +1,27 @@
+@media screen and(min-width: 768px) {
+  .card {
+    margin: 5rem auto;
+    &__container {
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 1.5rem;
+    }
+
+    &__one {
+      border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    &__three {
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+
+    &__button {
+      margin-top: 2rem;
+    }
+  }
+
+  .footer {
+    &__card {
+      margin: 0 auto;
+    }
+  }
+}

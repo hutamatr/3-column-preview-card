@@ -1,0 +1,39 @@
+.card {
+  &__content {
+    padding: 2.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  &__data {
+    flex-direction: column;
+    row-gap: 2rem;
+
+    &--title {
+      font-family: $body-font-alt;
+      font-size: $biggest-font-size;
+      color: $main-heading;
+    }
+
+    &--description {
+      color: $main-paragraph;
+      line-height: 1.5rem;
+    }
+  }
+
+  &__one {
+    background-color: $card-background-2;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  &__two {
+    background-color: $card-background-1;
+  }
+
+  &__three {
+    background-color: $card-background-3;
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}

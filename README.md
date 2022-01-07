@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component solution
+# Frontend Mentor - 3-column preview card component solution
 
 This is my solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
 
@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/statspreviewcardcomponent-with-scss-flexbox-grid-mobilefirst-bem-fX-NDoeGR)
-- Live Site URL: [Demo](https://hutamatr.github.io/stats-preview-card-component/)
+- Live Site URL: [Demo](https://hutamatr.github.io/3-column-preview-card/)
 
 ## My process
 

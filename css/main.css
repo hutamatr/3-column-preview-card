@@ -143,6 +143,9 @@ ul {
 .footer__card {
   text-align: center;
 }
+.footer__card a {
+  color: #006970;
+}
 .footer__img {
   width: 0.9rem;
   cursor: pointer;

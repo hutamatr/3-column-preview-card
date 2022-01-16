@@ -1,6 +1,9 @@
 .footer {
   &__card {
     text-align: center;
+    & a {
+      color: $card-background-1;
+    }
   }
 
   &__img {

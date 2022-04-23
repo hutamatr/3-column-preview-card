@@ -1,8 +1,8 @@
-@import 'utils/variable';
-@import 'utils/utilities';
-@import 'base/reset';
-@import 'base/typography';
-@import 'components/buttons';
-@import 'layout/body';
-@import 'layout/footer';
-@import 'layout/responsive';
+@use "utils/variable";
+@use "utils/utilities";
+@use "base/reset";
+@use "base/typography";
+@use "components/buttons";
+@use "layout/body";
+@use "layout/footer";
+@use "layout/responsive";
